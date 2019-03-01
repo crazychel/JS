@@ -23,8 +23,8 @@ button.addEventListener('click', () => {
         },
         answerA = document.querySelectorAll('input')[0].value,
         answerB = document.querySelectorAll('input')[1].value;
-    appData1.expenses[answerA] = answerA;
-    appData1.expenses.answerB = answerB;
+    appData1.expenses.статья_расходов = answerA;
+    appData1.expenses.обойдется_в = answerB;
     console.log(appData1);
     alert('Бюджет на 1 день = ' + money / 30)
 });
