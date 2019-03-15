@@ -71,7 +71,7 @@ window.addEventListener('DOMContentLoaded', function () {
             hours.textContent = t.hours;
 
             if (t.minutes < 0) {
-                t.minutes = '0';
+                t.minutes = '00';
             } else {
                 if (t.minutes < 10) {
                     t.minutes = '0' + t.minutes;
@@ -80,7 +80,7 @@ window.addEventListener('DOMContentLoaded', function () {
             minutes.textContent = t.minutes;
 
             if (t.seconds < 0) {
-                t.seconds = '0';
+                t.seconds = '00';
             } else {
                 if (t.seconds < 10) {
                     t.seconds = '0' + t.seconds;
